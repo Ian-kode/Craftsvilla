@@ -6,6 +6,7 @@
 
 body {
   width: 100%;
+  padding-top: 59px;
 }
 
 ul {
@@ -25,7 +26,8 @@ a {
 /* Navigation Header */
 nav {
   position: fixed;
-  z-index: 999;
+  top: 0;
+  left: 0;
   background: #fff;
   display: flex;
   width: 100%;
