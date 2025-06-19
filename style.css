@@ -25,6 +25,7 @@ a {
 
 /* Navigation Header */
 nav {
+  z-index: 999;
   position: fixed;
   top: 0;
   left: 0;
@@ -431,3 +432,73 @@ nav {
   background: url(./assets/images/FireShot\ Capture\ 130.png) white 100% / cover
     no-repeat;
 }
+
+/* Footer */
+#newsletter {
+  border: solid yellow;
+  display: flex;
+  width: 100%;
+  height: 117px;
+  padding: 21px 40px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  background: #495d7f;
+}
+
+#sign-up {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+#sign-up h2 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#sign-up h4 {
+  color: #fff;
+  font-family: "Roboto Condensed";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#email {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#email input {
+  width: 240px;
+  height: 31px;
+  padding: 0px 10px;
+  border: none;
+  border-radius: 1px;
+  background: #fff;
+}
+
+#email button {
+  width: 104px;
+  height: 37px;
+  border-radius: 24px;
+  border: none;
+  background: #556889;
+  color: #fff;
+  font-family: "Roboto Condensed";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Footer Links & Infos */
