@@ -332,6 +332,7 @@ nav {
   width: 100%;
   align-items: flex-start;
   align-content: flex-start;
+  justify-content: center;
   gap: 24px;
   flex-wrap: wrap;
 }
