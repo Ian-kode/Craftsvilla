@@ -18,7 +18,7 @@
         <div id="logo-nav">
           <ul>
             <img
-              src="./assets/images/Logo-container.svg"
+              src="./assets/images/Logo-navbar.svg"
               alt="Group of people arms in front and hands over eachother"
             />
             <li><a href="">Home</a></li>
@@ -36,5 +36,136 @@
         </div>
       </nav>
     </header>
+    <main>
+      <div id="booking-section">
+        <section id="booking">
+          <h2>Booking</h2>
+          <form action="booking" method="post">
+            <div class="booking-container">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Name" />
+            </div>
+            <div class="booking-container">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Email" />
+            </div>
+            <div class="booking-container">
+              <label for="activity">Activity</label>
+              <input
+                list="activity"
+                id="activity"
+                placeholder="Choose an Activity"
+              />
+            </div>
+            <datalist id="activities">
+              <option value="Mosaic Art"></option>
+              <option value="Watercolor Painting"></option>
+              <option value="Canvas Painting"></option>
+              <option value="Pottery"></option>
+              <option value="Bushcraft"></option>
+              <option value="Gardening"></option>
+            </datalist>
+            <div id="message-container">
+              <label for="message">Message</label>
+              <input
+                type="text"
+                id="message"
+                name="message"
+                placeholder="Type your message here..."
+              />
+            </div>
+          </form>
+        </section>
+        <section id="calendar">
+          <h2>Choose a date to book</h2>
+          <iframe
+            src="https://calendar.google.com/calendar/embed?height=526&wkst=1&ctz=Europe%2FOslo&src=NjVjODZiYzdkYjdhMDE0MWM5ZmY5ZWY3MGQwNTQ1ZTBhOWQ0MTNkODU4YWU1OGUwODBhYzExYWEyY2UwZGMwZEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23d50000"
+          ></iframe>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <section id="newsletter">
+        <div id="sign-up">
+          <h2>Sign up for our newsletter</h2>
+          <h4>
+            Don't miss out on latest updates, special offers, new retreat
+            centers, useful tips and more!
+          </h4>
+        </div>
+        <form id="email" action="newsletter-signup" method="post">
+          <input type="email" placeholder="Email" name="email" required />
+          <button type="submit">Sign up</button>
+        </form>
+      </section>
+      <section id="links-copyright">
+        <section id="logo-footer">
+          <div id="logo-footer-container">
+            <img src="./assets/images/Logo-footer.svg" alt="" />
+            <h4>Create memories, share moments, find calm</h4>
+            <p>Discover the best workshop centers and camps</p>
+          </div>
+          <div id="social-icons">
+            <a href=""><img src="./assets/images/twitter.svg" alt="" /></a>
+            <a href=""><img src="./assets/images/instagram.svg" alt="" /></a>
+            <a href=""><img src="./assets/images/facebook.svg" alt="" /></a>
+          </div>
+        </section>
+        <section id="links">
+          <div id="discover">
+            <h4>Discover Workshops & Activities</h4>
+            <div id="discover-links">
+              <a href=""
+                ><img src="./assets/images/arrow-icon.svg" alt="" />Workshops &
+                Activities</a
+              >
+              <a href=""
+                ><img src="./assets/images/arrow-icon.svg" alt="" />Workshops &
+                Activities</a
+              >
+              <a href=""
+                ><img src="./assets/images/arrow-icon.svg" alt="" />Workshops &
+                Activities</a
+              >
+              <a href=""
+                ><img src="./assets/images/arrow-icon.svg" alt="" />Workshops &
+                Activities</a
+              >
+              <a href=""
+                ><img src="./assets/images/arrow-icon.svg" alt="" />Workshops &
+                Activities</a
+              >
+            </div>
+          </div>
+          <div id="about">
+            <h4>About CraftsVilla</h4>
+            <div id="about-links">
+              <div>
+                <a href=""
+                  ><img src="./assets/images/arrow-icon.svg" alt="" />About
+                  Us</a
+                >
+              </div>
+              <div>
+                <a href=""
+                  ><img src="./assets/images/arrow-icon.svg" alt="" />About
+                  Us</a
+                >
+              </div>
+              <div>
+                <a href=""
+                  ><img src="./assets/images/arrow-icon.svg" alt="" />About
+                  Us</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="copyright">
+          <hr />
+          <p>© 2025 CraftsVilla. All Rights Reserved</p>
+        </section>
+      </section>
+    </footer>
   </body>
 </html>
