@@ -638,6 +638,7 @@ footer {
 
 /* Booking Page */
 #booking-section {
+  border: solid blue;
   display: flex;
   height: 674px;
   padding: 40px 0px;
