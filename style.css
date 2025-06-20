@@ -319,7 +319,7 @@ nav {
   border: solid yellow;
 }
 
-#camps {
+#art-crafts {
   display: flex;
   width: 100%;
   align-items: flex-start;
@@ -329,7 +329,8 @@ nav {
   flex-wrap: wrap;
 }
 
-#camps h3 {
+#art-crafts h3,
+.art-set {
   color: #fff;
   font-family: "Roboto Condensed";
   font-size: 36px;
@@ -338,8 +339,9 @@ nav {
   line-height: normal;
 }
 
-#pines {
-  display: flex;
+.art-set {
+  transition: all 10s ease-in-out;
+  display: none;
   width: 578px;
   height: 261px;
   padding: 103px 101px;
@@ -353,7 +355,51 @@ nav {
     50% / cover no-repeat;
 }
 
-#ninja {
+.art-set p {
+  color: #fff;
+  font-family: "Roboto Condensed";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#Mosaic-Art {
+  display: flex;
+  width: 578px;
+  height: 261px;
+  padding: 103px 101px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  background: url(./assets/images/shayan-ghiasvand-URNybiCn9d0-unsplash.jpg)
+    lightgray 50% / cover no-repeat;
+}
+
+#Mosaic-Art:hover {
+  display: none;
+}
+
+#Mosaic-Art:hover + .art-set {
+  transition: all 10s ease-in-out;
+  display: flex;
+  width: 578px;
+  height: 261px;
+  padding: 103px 101px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  background: url(./assets/images/shayan-ghiasvand-URNybiCn9d0-unsplash.jpg)
+    lightgray 50% / cover no-repeat;
+}
+
+#Watercolor-Painting {
   display: flex;
   width: 722px;
   height: 261px;
@@ -367,7 +413,7 @@ nav {
     lightgray 50% / cover no-repeat;
 }
 
-#heavenly {
+#Canvas-Painting {
   display: flex;
   width: 722px;
   height: 261px;
@@ -381,7 +427,7 @@ nav {
     50% / cover no-repeat;
 }
 
-#budget {
+#Pottery {
   display: flex;
   width: 578px;
   height: 261px;
